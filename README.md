@@ -1,7 +1,7 @@
 Gource for Go
 =============
 
-```bash
+```console
 hg log -r 4:release --style gource.style `go env GOROOT` > go.log
 
 gource gource.conf
