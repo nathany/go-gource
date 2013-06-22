@@ -1,5 +1,5 @@
-Go, Gource, Go
-==============
+Gophers at Work
+===============
 
 A visualization of the Go programming language implementation over five years, from initial specification through Go 1.1.1.
 
