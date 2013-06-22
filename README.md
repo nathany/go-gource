@@ -22,7 +22,7 @@ gource gource.conf
 ffmpeg -y -r 25 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4
 ```
 
-I ran into some out-of-order log entries, possibly caused by different time zones. My fix was to modify the default `gource.style` to use `localdate` and then use BBEdit to sort go.log.
+I ran into some out-of-order log entries, possibly caused by different time zones. My fix was to modify the default `gource.style` to use `localdate` and then use BBEdit to sort `go.log`.
 
 
 Related
