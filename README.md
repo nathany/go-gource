@@ -18,3 +18,7 @@ ffmpeg -y -r 25 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -preset 
 Title screen made with Keynote, image editing with Pixelmator, final composition with iMovie.
 
 Music from iStockphoto®, ©Jozef Rigo II., Spirit Of The Sun
+
+**Related**
+
+You may also be interested in the [Go Code Swarm](http://www.youtube.com/watch?v=P3Ka0sMpe2k), created by Robert Hencke.
