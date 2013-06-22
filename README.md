@@ -28,4 +28,4 @@ I ran into some out-of-order log entries, possibly caused by different time zone
 Related
 -------
 
-You may also be interested in the [Go Code Swarm](http://www.youtube.com/watch?v=P3Ka0sMpe2k), created by Robert Hencke.
+You may also be interested in the [Go Code Swarm](http://www.youtube.com/watch?v=P3Ka0sMpe2k), created by Robert Hencke ([configuration](https://codereview.appspot.com/5783053)).
