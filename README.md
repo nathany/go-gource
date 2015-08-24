@@ -1,9 +1,9 @@
 Gophers at Work
 ===============
 
-A visualization of the Go programming language implementation over five years, from initial specification through Go 1.1.1.
+A visualization of the Go programming language implementation from initial specification through Go 1.5.
 
-The final video is on [Vimeo](https://vimeo.com/nyoungman/gource).
+The video of Go's evolution through version 1.1.1 is on [Vimeo](https://vimeo.com/nyoungman/gource).
 
 Title screen made with Keynote, image editing with Pixelmator, final composition with iMovie.
 
@@ -15,7 +15,7 @@ Generating the Video
 Using [gource](https://github.com/acaudwell/Gource) 0.40 and ffmpeg 1.2.1.
 
 ```console
-hg log -r 4:release --style gource.style `go env GOROOT` > go.log
+git --git-dir=`go env GOROOT`/.git --work-tree=`go env GOROOT` log --pretty=format:user:%aN%n%ct --reverse --raw --encoding=UTF-8 --no-renames --since 2008-03-02 > go.log
 
 gource gource.conf
 
